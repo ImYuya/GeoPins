@@ -27,6 +27,6 @@ module.exports = {
   // リゾルバーは、GraphQL操作（クエリ、変換、または購読）をデータに変換するための指示を提供します。
   // それらはスキーマで指定したのと同じタイプのデータを返すか、そのデータに対するPromiseを返します
   Query: {
-    me: authenticated((root, args, ctx) => currentUser)
+    me: authenticated((root, args, ctx) => ctx.currentUser)
   }
 };

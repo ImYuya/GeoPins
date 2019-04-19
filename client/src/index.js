@@ -15,7 +15,7 @@ const Root = () => {
   const initialState = useContext(Context);
   // useReducer hookの戻り値を配列に格納
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log({ state });
+  // console.log({ state });
 
   return (
     <Router>
