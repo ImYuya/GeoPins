@@ -9,6 +9,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import Context from "./context";
 import reducer from "./reducer";
 import * as serviceWorker from "./serviceWorker";
+import ProtectedRoute from "./ProtectedRoute";
 
 const Root = () => {
   // useContext hookの戻り値による初期状態の定義
@@ -22,7 +23,7 @@ const Root = () => {
       {/* Contextのインスタンスによるプロバイダ定義 */}
       <Context.Provider value={{ state, dispatch }}>
         <Switch>
-          <Route exact path="/" component={App} />
+          <ProtectedRoute exact path="/" component={App} />
           <Route path="/login" component={Splash} />
         </Switch>
       </Context.Provider>
