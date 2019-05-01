@@ -1,12 +1,5 @@
 const { AuthenticationError } = require("apollo-server");
-
-// モックデータ
-const user = {
-  _id: "1",
-  name: "Read",
-  email: "redbreaker.g@gmail.com",
-  picture: "https://cloudinary.com/asdf"
-};
+const Pin = require("./models/Pin");
 
 // if don't have a current user, throw an error.
 // Meaning the login was unsuccessful.
@@ -28,5 +21,15 @@ module.exports = {
   // それらはスキーマで指定したのと同じタイプのデータを返すか、そのデータに対するPromiseを返します
   Query: {
     me: authenticated((root, args, ctx) => ctx.currentUser)
+  },
+  Mutation: {
+    createPin: authenticated(async (root, args, ctx) => {
+      const newPin = await new Pin({
+        ...args.input,
+        author: ctx.currentUser._id
+      }).save();
+      const pinAdded = await Pin.populate(newPin, "author");
+      return pinAdded;
+    })
   }
 };

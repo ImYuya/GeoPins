@@ -4,7 +4,8 @@ import { createContext } from "react";
 const Context = createContext({
   // 初期状態はcurrentUserをnullにする
   currentUser: null,
-  isAuth: false
+  isAuth: false,
+  draft: null
 });
 
 export default Context;

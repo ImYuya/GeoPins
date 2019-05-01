@@ -2,11 +2,12 @@ const mongoose = require("mongoose");
 
 const PinSchema = new mongoose.Schema(
   {
+    createdAt: { type: Date, default: Date.now },
     title: String,
     content: String,
     image: String,
     latitude: Number,
-    longtitude: Number,
+    longitude: Number,
     author: { type: mongoose.Schema.ObjectId, ref: "User" },
     comments: [
       {
