@@ -5,7 +5,9 @@ const Context = createContext({
   // 初期状態はcurrentUserをnullにする
   currentUser: null,
   isAuth: false,
-  draft: null
+  draft: null,
+  pins: [],
+  currentPin: null
 });
 
 export default Context;
