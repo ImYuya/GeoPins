@@ -38,13 +38,13 @@
 
     https://www.mongodb.com/cloud/atlas <br>
 
-* GoogleOAuth からクライアント ID の取得
+  * GoogleOAuth からクライアント ID の取得
 
-  https://console.developers.google.com/
+    https://console.developers.google.com/ <br>
 
-  <img width="1169" alt="スクリーンショット 2019-08-24 17 57 57" src="https://user-images.githubusercontent.com/7827576/63635062-0bb1ac00-c699-11e9-833f-298fc5aa8045.png">
+    <img width="1169" alt="スクリーンショット 2019-08-24 17 57 57" src="https://user-images.githubusercontent.com/7827576/63635062-0bb1ac00-c699-11e9-833f-298fc5aa8045.png">
 
-* `client`フォルダ内`.env`ファイルにて
+- `client`フォルダ内`.env`ファイルにて
 
   下記において xxxx の箇所を Mapbox および Cloudinary から取得して記入
 
@@ -62,13 +62,13 @@
 
     https://cloudinary.com/ <br>
 
-- プロジェクトフォルダ直下にて`npm run dev`でサーバ起動
+* プロジェクトフォルダ直下にて`npm run dev`でサーバ起動
 
-- `client`フォルダ内にて`npm run start`でクライアント起動
+* `client`フォルダ内にて`npm run start`でクライアント起動
 
 ## 技術要素
 
-React(hooks,axios,), Node.js, GraphQL, MongoDB Atlas, Mapbox, Cloudinary
+React(hooks 利用), Node.js, GraphQL, MongoDB Atlas, Mapbox, Cloudinary
 
 ## アーキテクチャ
 
