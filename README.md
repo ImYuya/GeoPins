@@ -68,9 +68,9 @@
 
 ## 技術要素
 
-- フロントエンド：React(hooks 利用), GraphQL
-- サーバサイド：Node.js, GraphQL
-- データベース：MongoDB Atlas
+- フロントエンド：React(hooks 利用), AppoloClient(GraphQL)
+- サーバサイド：Node.js, AppoloServer(GraphQL)
+- データベース：MongoDB Atlas(mongoos)
 - 画像ストレージ：Cloudinary
 - 地図データ：Mapbox
 
