@@ -38,6 +38,8 @@
 
     https://www.mongodb.com/cloud/atlas <br>
 
+    <img width="665" alt="スクリーンショット 2019-09-03 7 09 47" src="https://user-images.githubusercontent.com/7827576/64172157-497bb500-ce8f-11e9-96dc-b84f1752c3db.png">
+
   * GoogleOAuth からクライアント ID の取得
 
     https://console.developers.google.com/ <br>
@@ -58,9 +60,21 @@
 
     https://account.mapbox.com <br>
 
-  - Cloudinary から アップロードの Api 取得
 
-    https://cloudinary.com/ <br>
+    <table style="border-style: none;"><tr>
+      <td style="border-style: none;">
+        <img width="997" alt="スクリーンショット 2019-09-03 7 13 33" src="https://user-images.githubusercontent.com/7827576/64172879-e25f0000-ce90-11e9-90ac-9e31a51227c8.png">
+      </td>
+      <td style="border-style: none;">
+         <img width="1139" alt="スクリーンショット 2019-09-03 7 11 55" src="https://user-images.githubusercontent.com/7827576/64172680-7f6d6900-ce90-11e9-9826-5479e0745d11.png">
+      </td>
+    </table>
+
+- Cloudinary から アップロードの Api 取得
+
+  https://cloudinary.com/ <br>
+
+  <img width="905" alt="スクリーンショット 2019-09-03 7 15 17" src="https://user-images.githubusercontent.com/7827576/64173186-ab3d1e80-ce91-11e9-9bf8-141e30c791f0.png">
 
 * プロジェクトフォルダ直下にて`npm run dev`でサーバ起動
 
