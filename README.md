@@ -68,7 +68,11 @@
 
 ## 技術要素
 
-React(hooks 利用), Node.js, GraphQL, MongoDB Atlas, Mapbox, Cloudinary
+- フロントエンド：React(hooks 利用), GraphQL
+- サーバサイド：Node.js, GraphQL
+- データベース：MongoDB Atlas
+- 画像ストレージ：Cloudinary
+- 地図データ：Mapbox
 
 ## アーキテクチャ
 
