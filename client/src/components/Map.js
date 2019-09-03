@@ -100,8 +100,8 @@ const Map = ({ classes }) => {
       <ReactMapGL
         width="100vw"
         height="calc(100vh - 64px)"
-        mapStyle="mapbox://styles/mapbox/streets-v9"
-        mapboxApiAccessToken="pk.eyJ1IjoiaW15dXlhIiwiYSI6ImNqdTR1YWdsMDAwbHU0ZW13cDE5M2p3cGwifQ.399kJbRnp0v5_-HF3LPMqQ"
+        mapStyle={process.env.REACT_APP_MAPSTYLE}
+        mapboxApiAccessToken={process.env.REACT_APP_MAPBOXAPIACCESSTOKEN}
         scrollZoom={!mobileSize}
         onViewportChange={newviewport => setViewport(newviewport)}
         {...viewport}
