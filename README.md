@@ -46,7 +46,7 @@
 
     <img width="1169" alt="スクリーンショット 2019-08-24 17 57 57" src="https://user-images.githubusercontent.com/7827576/63635062-0bb1ac00-c699-11e9-833f-298fc5aa8045.png">
 
-- `client`フォルダ内`.env`ファイルにて
+- `client`フォルダ内`.env`ファイル作成
 
   下記において xxxx の箇所を Mapbox および Cloudinary から取得して記入
 
