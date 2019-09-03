@@ -76,8 +76,6 @@
 
 ## アーキテクチャ
 
-## 解説
-
 ## デモ
 
 https://geopins.redbreakerg.now.sh/login
