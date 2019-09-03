@@ -74,8 +74,6 @@ React(hooks 利用), Node.js, GraphQL, MongoDB Atlas, Mapbox, Cloudinary
 
 ## 解説
 
-フロントエンドは React を利用して作成した。今回は React hooks の利用も含め、
-
 ## デモ
 
 https://geopins.redbreakerg.now.sh/login
